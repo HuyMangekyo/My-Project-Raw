@@ -1,0 +1,21 @@
+table,th,td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+th{
+    background-color: black;
+    color: white;
+}
+td:nth-child(eve){
+    background-color: darkgrey;
+}
+th, td{
+    padding: 5px;
+    text-align: left;
+}
+select{
+   width: 200px;
+}
+P{
+font-family: "Lucida Grande","Lucida Sans Unicode", Tahoma, sans-serif;
+}

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+  <link rel="stylesheet"  href="Style_table.css">
+    <title>Form + table</title>
+
+</head>
+<body>
+<p>test link css</p>
+<table style="width: 100%">
+  <tr>
+    <th>First name</th>
+    <th>Last name</th>
+    <th>Age</th>
+  </tr>
+  <Tr>
+    <td>Nguyen Van</td>
+    <td>A</td>
+    <td>20</td>
+  </Tr>
+  <Tr>
+    <td>Nguyen Van</td>
+    <td>B</td>
+    <td>21</td>
+  </Tr>
+  <Tr>
+    <td>Nguyen Van</td>
+    <td>C</td>
+    <td>22</td>
+  </Tr>
+</table>
+<br>
+<form method="get" action="simpleform.html">
+  <h2>Order Form</h2>
+  <P>what would you like to buy? <br> </P>
+  <select>
+    <option value="  ">A</option>
+    <option >B</option>
+    <option >C</option>
+  </select>
+  <p>How many would you like to order</p>
+  <br>
+ <input name="pr" type="radio" /> 1-$10<br>
+  <input name="pr" type="radio" />2-$15<br>
+  <input name="pr" type="radio" />3-$25<br>
+  <P>Name <span style="color: red">*</span></P>
+
+<input name="fn" type="text"  placeholder="First name" required/>
+  <input name="ln" type="text"  placeholder="Last name" required/>
+  <P>Email</P>
+  <input name="mail" type="text"  placeholder="Email" style="width: 20%"/>
+  <P>Phone number</P>
+  <input name="phone" type="text" style="width: 50px" maxlength="3"/> -
+  <input name="phone" type="text" style="width: 50px" maxlength="3"> -
+  <input name="phone" type="text" style="width: 50px" maxlength="3"/>
+ <P>  <input name="sb" type="submit" value="sumbit"/></P>
+
+</form>
+</body>
+</html>
