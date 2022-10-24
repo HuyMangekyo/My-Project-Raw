@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<p><input type="checkbox" id="good" oninput="check('fast')"> Good</p>
+<p><input type="checkbox" id="fast" oninput="check('cheap')"> Fast</p>
+<p><input type="checkbox" id="cheap" oninput="check('good')"> Cheap</p>
+
+<script>
+    function check(id){
+        let g = document.getElementById('good');
+        let f = document.getElementById('fast');
+        let c = document.getElementById('cheap');
+        if (g=f=c=true){
+            document.getElementById(id).checked=false;
+        }
+    }
+</script>
+</body>
+</html>

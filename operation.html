@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<form action="">
+   <table style="border: 2px">
+       <tr style="height: 40px" >
+           <th colspan="5">
+           <input style="height: 40px" placeholder="nhap so" id="in" />
+       </tr>
+       <tr>
+           <td style="text-align: center">
+               <button value="7" onclick="inputnumber(7)" id= "n7">7</button>
+           </td>
+           <td style="text-align: center">
+               <button value="8" onclick="inputnumber(8)" id= "n8">8</button>
+           </td>
+           <td style="text-align: center">
+               <button value="9" onclick="inputnumber(9)" id= "n9">9</button>
+           </td>
+           <td style="text-align: center">
+               <button  onclick="calculate('+')" id= "c_+">+</button>
+           </td>
+           <td style="text-align: center">
+               <button  onclick="res()" id= "result">=</button>
+           </td>
+       </tr>
+   </table>
+</form>
+
+<script >
+    let a,result_;
+    a =0;
+    result_ =0;
+   function inputnumber(var_) {
+       a+=document.getElementById("n"+var_).innerHTML
+
+
+   }
+   function caculate(operator){
+
+    if (operator ==="+") a+=document.getElementById("in").innerHTML
+   }
+</script>
+</body>
+</html>

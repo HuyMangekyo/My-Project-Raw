@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<h2 id="demo">Chon do tuoi</h2>
+<select id="age1" >
+    <option>15</option>
+    <option>20</option>
+    <option>25</option>
+    <option>30</option>
+</select>
+<p id="age">15</p>
+<button type ="button" id="change"> change to 20</button>
+<script>
+
+    var select = document.getElementById("age")
+    select.addEventListener("change",changefuntion)
+    function changefuntion(){
+        var age= select_value = document.getElementById("age").value
+        alert(age)
+    }
+    var color = document.getElementById("demo")
+    color.addEventListener("mouseout",mouseout)
+    color.addEventListener("mouseover",mouseover)
+    function mouseout(){
+        document.getElementById("demo").style.color= "black"
+    }
+    function mouseover(){
+        document.getElementById("demo").style.color= "blue"
+    }
+    // let age_change = document.getElementById("change");
+    // age_change.addEventListener("click",change_age);
+    // function change_age() {
+    //
+    //     document.getElementById("age").innerHTML=20;
+    // }
+    let a,b;
+    a= prompt("nhap a");
+    b= prompt("nhap");
+    if (a%b=0){
+        document.write(a la boi so cua b)
+
+    }
+    else {
+        document.write(a khong la boi so cua b)
+    }
+
+
+</script>
+</body>
+</html>
+<script src="index.js">
+
+</script>

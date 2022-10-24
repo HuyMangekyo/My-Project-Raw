@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body >
+<form>
+    <img id="myImage" src="https://upload.wikimedia.org/wikipedia/commons/6/6e/Football_%28soccer_ball%29.svg" style = "width: 30%; position: relative;left: 0px"/>
+    <p>Click button below to move the image to right</p>
+    <input type="button" value="Click Me" onclick="move_img()"/>
+</form>
+
+<!--------------------------------------->
+<input id="inputnumber" style="width: 50px;margin: 20px;text-align: right" placeholder="nhap so can kiem tra">
+<button onclick="check_even()">Check</button>
+<p id="result1"></p>
+<script>
+ function check_even() {
+   b= +document.getElementById("inputnumber").value;
+   let iseven = (b % 2 ==0)?"so chan":"so le";
+   var re = "result" ,stt =1
+     document.getElementById(re+stt).innerHTML=eval(document.getElementById("inputnumber").value);
+ }
+ let img = document.getElementById("myImage");
+   let x;
+function move_img(){
+
+    img.style.left = parseInt(img.style.left) +10 +"px";
+
+    document.getElementById("myImage").style.left = img.style.left;
+
+    // alert(x)
+}
+
+</script>
+</body>
+</html>

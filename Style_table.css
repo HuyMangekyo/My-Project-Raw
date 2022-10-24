@@ -1,21 +1,15 @@
-table,th,td {
+table,th,td{
     border: 1px solid black;
     border-collapse: collapse;
+    text-align: center;
+    width: 30%;
+    height: 30px;
 }
 th{
-    background-color: black;
-    color: white;
+    background-color: red;
 }
-td:nth-child(eve){
-    background-color: darkgrey;
-}
-th, td{
-    padding: 5px;
-    text-align: left;
-}
-select{
-   width: 200px;
-}
+
+
 P{
 font-family: "Lucida Grande","Lucida Sans Unicode", Tahoma, sans-serif;
 }

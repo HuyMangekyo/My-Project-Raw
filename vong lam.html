@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+  let table = "<table border='1' width='700' cellspacing='0' cellpadding='3' alin:'center'>"
+  let col=2, row=1;
+  for(let row = 1;row <=9;row++){
+      table= table + "<tr>"
+    for(let col = 2;col <=8;col++) {
+      b= col*row
+      a = String(col) +"  x  "+ row + "  =  " + b
+     table = table + "<td>" + a+ "</td>"
+    };
+
+    };
+
+  table = table
+  document.write(table)
+</script>
+</body>
+</html>
