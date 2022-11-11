@@ -1,0 +1,19 @@
+#bar {
+    width: 70px;
+    height: 8px;
+    background-color: blue;
+    border: 1px solid blue;
+}
+#ball{
+    width: 10px;
+    height: 10px;
+    background-color: red;
+    border-radius: 50%;
+    border: 1px solid black;
+
+}
+input{
+    width: 80px;
+    height: 30px;
+    margin-top: 50px;
+}

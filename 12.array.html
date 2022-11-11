@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<input id="element_array" style="width: 50px" />
+<input type="button" value="add array" style="width: 50px; margin-left: 20px" onclick="add_array()"/>
+<br>
+<P id ="result0"> </P>
+<P id ="result1"> </P>
+<P id ="result2"> </P>
+<P id ="result3"> </P>
+
+
+<script>
+    let array_result = [12,13,14,30,20,8,6,7]
+    let max_number = array_result[0]
+        array_result.forEach(function  max(value){
+            if (value > max_number) max_number = value
+    })
+    document.getElementById("result0").innerHTML = max_number
+</script>
+</body>
+</html>

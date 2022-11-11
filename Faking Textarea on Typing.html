@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Faking Textarea on Typing</title>
+</head>
+<body>
+<textarea type="text" id="fix_word" onkeydown="fix_word()" style="width: 300px;height: 300px; margin-left: 200px"> </textarea>
+
+<script>
+  word = "you are knowledgeable"
+  word_input =[]
+  a= 0
+  function  fix_word(){
+    if (a<word.length){
+      word_input.push(word[a])
+      document.getElementById("fix_word").value = word_input.join('')
+      a+=1
+    } else{a=0;word_input =[]
+    }
+  }
+</script>
+</body>
+</html>

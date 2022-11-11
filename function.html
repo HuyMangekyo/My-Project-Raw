@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+  <h2> Add New Product</h2>
+ <div>
+        <input placeholder="add new product" id="New_Product" style="height: 20px" required>
+        <input id = "Add"  type="button" onclick="addProduct()"   value= 'Add' style="margin-left: 20px;
+        background-color: greenyellow; width: 50px;height: 25px" >
+  </div>
+  <h3> Display all product </h3>
+  <table>
+      <tr>
+          <th style='width: 200px'>Product name </th>
+          <th id = 'sum_product' style='color: red'>
+      0 products</th>
+      </tr>
+  </table>
+  <p id="result"></p>
+  <script>
+  let list_product = []
+  let sum_product =""
+  function addProduct() {    //them san pham
+      let new_product = document.getElementById("New_Product").value
+      list_product.push(new_product)
+            document.getElementById("sum_product").innerHTML = list_product.length + " products"
+      displayProduct()
+  }
+  function editName(pos){
+      new_name = prompt("nhap ten moi")
+      list_product[pos] = new_name;
+      displayProduct()
+  }
+  function delProduct(name){
+      list_product.splice(name,1)
+      displayProduct()
+  }
+
+  function displayProduct() {
+      let sum_product = "<table>"
+      list_product.forEach(function sount(add_product,index) {
+          sum_product += "<tr>"
+          sum_product += "<td style='width: 300px'>" + add_product + "</td>"
+              + "<td> <input type='button' value='EDIT' onclick='editName("+index+")' style='background-color: greenyellow' /></td>"
+              +"<td> <input type='button' value='DELETE' onclick='delProduct("+add_product+")' style='background-color: greenyellow' </td>"
+          sum_product += "</tr>"
+      })
+      sum_product = sum_product + "</table>"
+      document.getElementById("result").innerHTML = sum_product
+  }
+ document.write(sum_product)
+</script>
+
+</body>
+</html>

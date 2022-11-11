@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<table id="caro" style="border: 1px solid black">
+
+</table>
+<script>
+  let caro =  "<table id='caro' border='1' rules='all' width='5' cellpadding='5' >";
+    for (i = 1;i<=20;i++){
+    caro+= "<tr>";
+
+    for (j=1;j<20;j++){
+        let toado = ""
+       toado = String(i)+ String(j);
+
+      caro += "<td><input type='button' value='' onclick='mark_(this.id)'  id ="+ toado +">"+"</td>"
+        //
+        // caro += "<td type='button' value='1' onclick='mark_(this.id)'  id ="+ toado +">"+" <p </p></td>"
+    // };
+    caro+= "</tr>"
+  }
+   let person = 1
+  function mark_(x){
+
+      if (person==1&&document.getElementById(x).value=="") {
+          document.getElementById(x).value = "x";
+          person = 0
+      }else if(person==0&&document.getElementById(x).value=="") {
+          document.getElementById(x).value = "o";
+          person = 1
+
+      }
+
+  }
+  document.write(caro);
+
+</script>
+</body>
+</html>

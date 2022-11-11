@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+</head>
+<body>
+<script>
+  class Apple{
+    weight;
+    constructor(weight) {
+      this.weight = weight;
+    }
+    getWeigth(){
+      return this.weight;
+    }
+    decrease(){
+      if(!this.isEmpty()){
+        this.weight --;
+      }
+    }
+    isEmpty(){
+      return this.weight===0;
+    }
+  }
+
+  class Human{
+    name;
+    humanWeight;
+    gender;
+
+    constructor(name,humanWeight,gender) {
+      this.name=name;
+      this.humanWeight=humanWeight;
+      this.gender=gender;
+    }
+    isMale(){
+      if(this.gender){
+        document.write('I am man');
+      } else {
+        document.write('I am woman')
+      }
+    }
+    genderMale(){
+      this.gender = true;
+    }
+    genderFemale(){
+      this.gender = false;
+    }
+
+    getName(){
+      return this.name = name;
+    }
+    setName(name){
+      this.name=name;
+    }
+    getHumanWeigth(){
+      return this.humanWeight = humanWeight;
+    }
+    setHumanWeigth(humanWeight){
+      this.humanWeight=humanWeight;
+    }
+    checkApple(Apple){
+      if(Apple.weight===10){
+        alert('Táo còn nguyên')
+      }else{
+        console.log(Apple.weight);
+      }
+    }
+    eat(Apple){
+      if(Apple.weight>0){
+        this.humanWeight ++;
+        Apple.weight --;
+      } else{
+        alert('Hết táo');
+      }
+
+    }
+    say(message){
+      console.log(message);
+    }
+
+
+  }
+
+  let human = new Human('Adam',40,'Nữ');
+  let apple = new Apple(10);
+  human.eat(apple);
+  console.log(apple.weight);
+  console.log(human.humanWeight);
+  human.checkApple(apple);
+  human.say('I am human');
+
+</script>
+</body>
+</html>

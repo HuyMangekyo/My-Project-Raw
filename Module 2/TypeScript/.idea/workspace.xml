@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="9bac57c0-a3a9-4664-b9c9-1aabb0a0e035" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../../12.array.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Adam+Eva.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Bouncing ball game/bouncingBall.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Bouncing ball game/bouncingBall.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Bouncing ball game/bouncingBall.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Bouncing ball game/test.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Faking Textarea on Typing.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../FlashLamp.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/Module 2.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ClassFan.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ClassFan.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Display.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../StopWatch.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/helloWord.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/helloWord.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spread-operator-eample.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Note.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../QLSP_Yen.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../adam.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../co ca ro.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../dictionary.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../doi xung.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../function.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../khoang cach giua 2 duong tron/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../khoang cach giua 2 duong tron/.idea/khoang cach giua 2 duong tron.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../khoang cach giua 2 duong tron/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../khoang cach giua 2 duong tron/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../khoang cach giua 2 duong tron/AnimalClass.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../khoang cach giua 2 duong tron/ArrayList.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../khoang cach giua 2 duong tron/Calculator.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../khoang cach giua 2 duong tron/CalculatorTest.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../khoang cach giua 2 duong tron/Cylinder.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../khoang cach giua 2 duong tron/CylinderTest.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../khoang cach giua 2 duong tron/EmployeeManager.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../khoang cach giua 2 duong tron/Fibonacci.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../khoang cach giua 2 duong tron/IArrayList.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../khoang cach giua 2 duong tron/Refactoring.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../khoang cach giua 2 duong tron/circle.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../khoang cach giua 2 duong tron/circle.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../khoang cach giua 2 duong tron/error.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../khoang cach giua 2 duong tron/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../khoang cach giua 2 duong tron/main.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../khoang cach giua 2 duong tron/pointClass.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../khoang cach giua 2 duong tron/shape.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../khoang cach giua 2 duong tron/testArrayList.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../khoang cach giua 2 duong tron/user.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../mess_mobile.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../move_oop.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../move_oop.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../opp/Cat&amp;Mouse(codegym).js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../opp/Cat&amp;Rat.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../opp/Cat&amp;Rat.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../opp/RemoteTV.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../opp/co_ca_ro.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../opp/co_ca_ro.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../opp/co_ca_ro.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../opp/remoteTV.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../opp/test.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../pikachu.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../practive_array.13.last.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../practive_array.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../test document.write.html" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectId" id="2HK4dPCx831l8yoesLjJBzXzRnN" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9bac57c0-a3a9-4664-b9c9-1aabb0a0e035" name="Changes" comment="" />
+      <created>1668020527787</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1668020527787</updated>
+      <workItem from="1668020529644" duration="40000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+    <option name="exactExcludedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/helloWord.js" />
+      </list>
+    </option>
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

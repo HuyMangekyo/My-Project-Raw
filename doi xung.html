@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<input placeholder="nhap chuoi can check" style="width: 200px" id="str">
+<input type="button" value="check" onclick="result()">
+<p id = "result"></p>
+<script>
+
+  function check(){
+    let a = document.getElementById("str").value
+    let  str = a.split("")
+    let n= str.length
+
+    for (i=0;i<Math.floor(parseInt(n/2));i++){
+
+       if(a[i]!=a[n-1-i]){
+       return false;
+      }
+    }
+  }
+  function result(){
+
+    // check()!=false?result_ = "chuoi doi xung":result_="chuoi khong doi xung"
+    check()!=false?result_ = "chuoi doi xung": result_ ="chuoi khong doi xung"
+
+    document.getElementById("result").innerHTML = result_
+  }
+
+</script>
+</body>
+</html>
