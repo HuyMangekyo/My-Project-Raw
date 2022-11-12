@@ -8,19 +8,25 @@ export class Node<T>{
         return this.data
     }
 }
-export class NodeScore<T> extends Node<T>{
-    data:T
-    name:string
-    score:number;
-    constructor(data:T,name:string,score:number,next:NodeScore<T>) {
-        super(data);
+export class Student{
+    name:string;
+    score: number  ;
+    constructor(name: string,score: number) {
         this.name = name;
         this.score = score;
     }
+}
+export class NodeScore<T> {
+    data: Student
+    next: NodeScore<T>|null = null;
+    constructor(student:Student) {
+        this.data = student;
+    }
     readName():string{
-        return  this.name;
+        return  this.data.name;
     }
     readScore():number{
-        return  this.score
+        return  this.data.score;
     }
 }
+

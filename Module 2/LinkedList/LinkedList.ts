@@ -2,7 +2,7 @@ import {Node} from "./Node";
 export class LinkedList<T> {
     head: Node<T> | null;
     tail: Node<T> | null;
-    size: number;
+    size: number| null = null;
     constructor(head: Node<T>, tail: Node<T>) {
         this.head = head;
         this.tail = tail;
