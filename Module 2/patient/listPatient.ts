@@ -1,19 +1,20 @@
-import {patient} from "./Queue";
-import {QueuePatient} from "./Queue";
+import {Patient} from "./QueuePatient";
+import {QueuePatient} from "./QueuePatient";
 let ListPatient = new  QueuePatient()
-let Patient1 = new patient("Smith",5)
-let Patient2 = new patient("Jones",4)
-let Patient3 = new patient("Fehrenbach",6)
-let Patient4 = new patient("Brown",1)
-let Patient5 = new patient("Ingram",1)
+let Patient1 = new Patient("Smith",2)
+// let Patient2 = new Patient("Jones",4)
+// let Patient3 = new Patient("Fehrenbach",6)
+// let Patient4 = new Patient("Brown",1)
+let Patient5 = new Patient("Ingram",1)
 ListPatient.enQueue(Patient1)
-ListPatient.enQueue(Patient2)
-ListPatient.enQueue(Patient3)
-ListPatient.enQueue(Patient4)
+// ListPatient.enQueue(Patient2)
+// ListPatient.enQueue(Patient3)
+// ListPatient.enQueue(Patient4)
 ListPatient.enQueue(Patient5)
-// console.log(`cac benh nhan cho ${ListPatient.showList()}`)
-console.log(`kham cho benh nhan ${ListPatient.deQueue()}`)
-console.log(`cac benh nhan cho ${ListPatient.showList()}`)
-console.log(`kham cho benh nhan ${ListPatient.deQueue()}`)
-console.log(`cac benh nhan cho ${ListPatient.showList()}`)
-console.log(`kham cho benh nhan ${ListPatient.deQueue()}`)
+
+
+
+
+console.log(`kham cho benh nhan `+ListPatient.deQueue())
+console.log(`kham cho benh nhan `+ListPatient.deQueue())
+console.log(`kham cho benh nhan `+ListPatient.deQueue())

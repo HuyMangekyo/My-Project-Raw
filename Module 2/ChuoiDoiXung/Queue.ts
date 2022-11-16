@@ -2,6 +2,7 @@ interface IQueue<T>{
     enQueue(item: T):void;
     deQueue():T|undefined;
     size()
+    show()
 }
 export class Queue implements IQueue<string>{
     private storage:string[]=[]
@@ -16,5 +17,8 @@ export class Queue implements IQueue<string>{
     }
     deQueue(): string | undefined {
         return this.storage.shift()
+    }
+    show() {
+        return this.storage
     }
 }

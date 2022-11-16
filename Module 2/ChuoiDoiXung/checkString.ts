@@ -5,6 +5,7 @@ function testString(string){
     let queueString = new Queue();
     for (let i of string) {
         stackString.push(i)
+        console.log(queueString.show())
         queueString.enQueue(i)
     }
     for (let i of string){
@@ -13,5 +14,5 @@ function testString(string){
     }
     return "chuoi doi xung"
 }
-let stringTest = "able was I ere I saw elba"
+let stringTest = "ableelba"
 console.log(testString(stringTest))
